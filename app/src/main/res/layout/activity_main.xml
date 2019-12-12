@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    android:id="@+id/layout_main"
+    android:weightSum="10"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="start 버튼을 눌러주세요"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#0000FF"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/start"
+        android:clickable="true"
+        android:onClick="clickStart"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/alpa01"
+            android:clickable="true"
+            android:onClick="clickBtn"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/btn02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/alpa02"
+            android:clickable="true"
+            android:onClick="clickBtn"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/btn03"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/alpa03"
+            android:clickable="true"
+            android:onClick="clickBtn"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn04"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/alpa01"
+            android:clickable="true"
+            android:onClick="clickBtn"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/btn05"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/alpa02"
+            android:clickable="true"
+            android:onClick="clickBtn"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/btn06"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/alpa03"
+            android:clickable="true"
+            android:onClick="clickBtn"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn07"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/alpa01"
+            android:clickable="true"
+            android:onClick="clickBtn"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/btn08"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/alpa02"
+            android:clickable="true"
+            android:onClick="clickBtn"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/btn09"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/alpa03"
+            android:clickable="true"
+            android:onClick="clickBtn"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/alpa01"
+            android:clickable="true"
+            android:onClick="clickBtn"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/btn11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/alpa02"
+            android:clickable="true"
+            android:onClick="clickBtn"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/btn12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/alpa03"
+            android:clickable="true"
+            android:onClick="clickBtn"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/returnstarts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textSize="16sp"
+        android:text="'뒤로'버튼을 누르세요"/>
+
+</LinearLayout>

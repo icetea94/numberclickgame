@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar2" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.Appbar">
+        <!-- 앱바 배경색 -->
+        <!-- 제목 글씨 색상 -->
+        <item name="titleTextColor">#FFFFFF</item>
+        <item name="colorPrimary">#90ee90</item>
+        <!-- 액션바의 메뉴아이템들 색상 -->
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name= "subtitleTextColor">#FFFFFF</item>
+    </style>
+</resources>
