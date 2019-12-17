@@ -18,7 +18,7 @@
         </intent-filter>
         </activity>
         <activity android:name=".MainActivity"
-            android:theme="@style/AppTheme.Appbar">
+            android:theme="@style/AppTheme.NoActionBar2">
 
         </activity>
     </application>
